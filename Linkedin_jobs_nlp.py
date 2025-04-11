@@ -20,7 +20,7 @@ entities = {
         "page": 0,
     }
 
-genai.configure(api_key="AIzaSyA3dqyqPY626oDCBJi8U3y3WdjX8MSAQZI")
+genai.configure(api_key="your-api-key")
 def extract_entities_with_gemini(prompt):
 
     # Define the system instruction to extract structured data
